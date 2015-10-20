@@ -1,6 +1,13 @@
 # WR841N-VPN
 OpenWrt image and configuration for TL-WR841N router with VPN server
 
+**Firmware file:**
+https://github.com/ligius-/WR841N-VPN/releases/download/v0.1/openwrt-ar71xx-generic-tl-wr841n-v9-squashfs-sysupgrade-ligius.bin
+
+**Configuration:**
+https://github.com/ligius-/WR841N-VPN/releases/download/v0.1/backup-OpenWrt-2015-10-20.blog.tar.gz
+
+
 The TP-Link TL-WR841N device is a cheap router (16E delivered) that has some limited out-of-the box capabilities.
 An OpenWRT build exists for it but, unfortunately, because of the limited 4MB Flash memory, a lot of options are not available.
 
@@ -19,6 +26,7 @@ What it does not include:
 L2TP was chosen because of space concerns. If you are worried about privacy and 3rd parties intercepting your traffic you should not use this image. This is intended only for casual browsing.
 
 The image has been running for a few months now with no issues.
+
 
 **Because of the limited flash space you cannot install any addons - you would have to compile a new firmware yourself.**
 
